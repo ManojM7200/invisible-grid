@@ -1,0 +1,30 @@
+<!-- <hot-table
+  [colHeaders]="true"
+  [rowHeaders]="true"
+  [data]="dataset"
+  [manualColumnResize]= 'true'  
+  [manualColumnMove]= 'true'  
+  [afterColumnSort]="sorted"
+  [afterColumnResize]="changed"
+  [multiColumnSorting] = 'multi'
+  [columns]="column"
+  [colWidths]="configWidth"
+  [afterColumnMove]="afterColumnMove"
+  licenseKey="non-commercial-and-evaluation">
+</hot-table> -->
+
+
+<hot-table
+  [colHeaders]="true"
+  [rowHeaders]="true"
+  [data]="dataset"
+  [manualColumnResize]= 'manualColumnResize'  
+  [manualColumnMove]= 'manualColumnMove'  
+  [columns]="column"
+  [multiColumnSorting] = 'multi'
+  [persistentState]='true'
+ 
+  [persistentStateSave]='persistentStateSave'
+  licenseKey="non-commercial-and-evaluation">
+</hot-table>
+
